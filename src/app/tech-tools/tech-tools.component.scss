@@ -1,0 +1,32 @@
+.tech-tools-card {
+    border-radius: 20px;
+    background-color: #3F3F3F;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    width: 80%;
+    text-align: justify;
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+
+    h2 {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+
+            &::before {
+                content: '▹';
+                margin-right: 10px;
+            }
+        }
+    }
+}

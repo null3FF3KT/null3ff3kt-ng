@@ -1,0 +1,57 @@
+.tic-tac-toe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #34495E;
+    color: white;
+    width: 30rem;
+    height: 30rem;
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+    }
+
+    .new-game-button {
+        height: 2rem;  // Adjust as needed
+        margin-left: 1rem;
+        padding: .5rem;
+        text-align: center;
+    }
+
+    .game-info {
+        display: flex;
+        height: 2rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tic-tac-toe-grid {
+        display: grid;
+		grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        grid-gap: 5px;
+        margin-top: 1rem;
+
+        div {
+            width: 100px;
+			height: 100px;
+			background-color: #FFF;
+			color: #2C3E50;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 2rem;
+			font-weight: bold;
+            border-radius: 5px;
+			cursor: pointer;
+        }
+    }
+}

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+// src/styles.scss
+@import './_variables';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Futura', sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #34495E;;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  
