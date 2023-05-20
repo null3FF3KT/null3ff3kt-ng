@@ -20,6 +20,7 @@ export class TicTacToeComponent {
   newGame() {
     this.squares = Array(9).fill(null);
     this.winner = undefined;
+    this.tie = undefined;
     this.xIsNext = true;
   }
 

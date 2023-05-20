@@ -10,9 +10,12 @@
         <br>
     </div>
     <div class="new-game-button">
-        <p *ngIf="tie" class="tie-message">It's a tie!</p>
-        <div class="game-info" *ngIf="winner || tie" >
+        <div class="game-info" *ngIf="winner" >
             <p class="winner-info">Winner: {{ winner }}</p>
+            <button class="new-game-button" (click)="newGame()">New Game</button>
+        </div>
+        <div class="game-info" *ngIf="tie" >
+            <p class="winner-info">It's a tie!</p>
             <button class="new-game-button" (click)="newGame()">New Game</button>
         </div>
         <p *ngIf="!winner && !tie">Next player: {{ player }}</p>
