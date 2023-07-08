@@ -1,6 +1,6 @@
 <div class="tic-tac-toe-container">
     <h2>Tic Tac Toe</h2>
-    
+    <button class="new-game-button" (click)="newGame()">Reset</button>
     <div class="tic-tac-toe-grid">
         <div *ngFor="let square of squares; let i = index" (click)="makeMove(i)">
             <p>{{ square }}</p>
