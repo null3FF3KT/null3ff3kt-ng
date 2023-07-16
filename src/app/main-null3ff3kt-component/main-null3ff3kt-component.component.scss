@@ -1,11 +1,53 @@
+.n3-swot {
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+
+.n3-ttt {
+    align-items: center;
+}
 .content-top {
     display: flex;
     flex-direction: row;
     margin-top: .5rem;
     margin-left: .5rem;
-    margin-right: .5rem;
+    margin-right: 5rem;
 }
 
 .content-item {
-    margin-right: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
+.text-logo {
+    display: flex;
+}
+.logo {
+    margin-left: 15rem;
+}
+
+.spacer {
+    margin: 10rem;
+}
+
+.swot {
+    display: flex;
+    margin-left: 3rem;
+    padding: 3rem;
+}
+
+.vr {
+    border: 1px solid gray;
+    height: 30rem;
+    margin: 2rem;
+}
+
+p {
+    margin: 1rem;
+    width: 40rem;
+}
+
+ul {
+    margin: 1rem;
+    padding-left: 5rem;
+}
+
