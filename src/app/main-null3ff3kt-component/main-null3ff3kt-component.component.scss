@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 2rem;
+    margin: 2%;
     padding-left: 2rem;
     align-items: center;
 }
@@ -61,6 +61,7 @@
 
 .swot {
     display: flex;
+    flex-direction: row;
     margin-left: 3rem;
     padding: 3rem;
 }
@@ -94,5 +95,9 @@ ul {
         justify-content: center;
         flex-direction: column-reverse;
         padding: 2rem;
+    }
+    .swot {
+        flex-direction: row;
+        justify-content: center;
     }
 }
