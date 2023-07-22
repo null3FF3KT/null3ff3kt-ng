@@ -1,4 +1,7 @@
 .n3-swot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin: 2rem;
     padding-left: 2rem;
     align-items: center;
@@ -19,6 +22,7 @@
     object-fit: cover;
     border-radius: 7.5rem;
     height: 10rem;
+    padding: 1rem;
 }
 
 .container {
@@ -42,13 +46,14 @@
   }
 .text-logo {
     display: flex;
-}
-.logo {
-    margin-left: 3rem;
-    margin-right: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    min-width: min-content;
+    padding: 2rem;
 }
 .logo-pic {
-    width: 12.5rem;   
+    width: 12.5rem;  
+    height: 12.5rem; 
 }
 .spacer {
     margin: 5rem;
@@ -81,6 +86,13 @@ ul {
 
 @media (max-width: 768px) {
     .content-top {
+        justify-content: center;
         flex-direction: column;
+        margin: 1rem;
+    }
+    .text-logo {
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 2rem;
     }
 }
