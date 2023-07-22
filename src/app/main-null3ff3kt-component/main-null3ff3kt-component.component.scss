@@ -1,15 +1,23 @@
 .n3-swot {
     margin: 2rem;
     padding-left: 2rem;
+    align-items: center;
 }
 
 .n3-ttt {
     align-items: center;
 }
+
+.banner-pic {
+    object-fit: cover;
+    border-radius: 7.5rem;
+    width:30rem;
+}
+
 .content-top {
     display: flex;
     flex-direction: row;
-    margin-top: .5rem;
+    margin-top: 1rem;
     margin-left: .5rem;
     margin-right: 2rem;
 }
@@ -38,6 +46,10 @@
 .vr {
     border: 1px solid gray;
     height: 30rem;
+    margin: 2rem;
+}
+
+h1 {
     margin: 2rem;
 }
 
